@@ -2,6 +2,7 @@
 export default defineNuxtConfig({
   devServer: { host: 'localhost' },
   devtools: { enabled: true },
+  css: ['~/assets/main.css'],
   modules: [
     '@vueuse/nuxt', // https://vueuse.org/nuxt/README.html
     '@nuxtjs/tailwindcss', // https://tailwindcss.nuxtjs.org/
