@@ -2,6 +2,12 @@
 export default defineNuxtConfig({
   devServer: { host: 'localhost' },
   devtools: { enabled: true },
+  components: [
+    {
+      path: '~/components',
+      pathPrefix: false,
+    },
+  ],
   css: ['~/assets/main.css'],
   modules: [
     '@vueuse/nuxt', // https://vueuse.org/nuxt/README.html
