@@ -8,7 +8,8 @@
     "lint": "eslint .",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "test": "vitest"
+    "test": "vitest",
+    "type-check": "vue-tsc --noEmit"
   },
   "dependencies": {
     "@pinia/nuxt": "^0.4.11",
@@ -31,6 +32,8 @@
     "jsdom": "^22.1.0",
     "nuxt": "^3.7.1",
     "sass": "^1.66.1",
-    "vitest": "^0.34.4"
+    "typescript": "^5.2.2",
+    "vitest": "^0.34.4",
+    "vue-tsc": "^1.8.11"
   }
 }

@@ -8,6 +8,7 @@ export default defineNuxtConfig({
       pathPrefix: false,
     },
   ],
+  typescript: { typeCheck: true },
   css: ['~/assets/main.css'],
   modules: [
     '@vueuse/nuxt', // https://vueuse.org/nuxt/README.html
