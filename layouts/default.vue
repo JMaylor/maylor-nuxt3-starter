@@ -1,4 +1,4 @@
 <template>
-  Default Layout
+  {{ $t('default_layout') }}
   <NuxtPage />
 </template>

@@ -1,4 +1,4 @@
 <template>
-  Auth Layout
+  {{ $t('authorization_layout') }}
   <NuxtPage />
 </template>

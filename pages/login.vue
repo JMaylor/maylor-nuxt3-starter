@@ -3,5 +3,5 @@ definePageMeta({ layout: 'auth' })
 </script>
 
 <template>
-  <h1>Login Page</h1>
+  <h1>{{ $t('login') }}</h1>
 </template>

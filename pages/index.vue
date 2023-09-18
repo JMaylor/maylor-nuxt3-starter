@@ -1,3 +1,5 @@
 <template>
-  <h1>Index Page</h1>
+  <h1>
+    {{ $t('welcome') }}
+  </h1>
 </template>
