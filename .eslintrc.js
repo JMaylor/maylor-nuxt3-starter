@@ -1,6 +1,6 @@
 module.exports = {
   extends: ['@antfu', 'plugin:tailwindcss/recommended'],
-  plugins: ['tailwindcss'],
+  plugins: ['tailwindcss', 'vitest'],
   rules: {
     'object-curly-newline': [
       'error',
