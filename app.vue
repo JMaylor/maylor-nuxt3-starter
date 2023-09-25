@@ -3,6 +3,8 @@ import type { LocaleObject } from '@nuxtjs/i18n/dist/runtime/composables'
 
 const { locales, locale } = useI18n()
 const switchLocalePath = useSwitchLocalePath()
+
+const colorMode = useColorMode()
 </script>
 
 <template>
@@ -21,6 +23,21 @@ const switchLocalePath = useSwitchLocalePath()
       </NuxtLink>
     </li>
   </ul>
+
+  <select
+    v-model="colorMode.preference"
+    class="block bg-neutral-200 dark:bg-neutral-800"
+  >
+    <option value="system">
+      System
+    </option>
+    <option value="light">
+      Light
+    </option>
+    <option value="dark">
+      Dark
+    </option>
+  </select>
 
   <NuxtLayout>
     <NuxtPage />
