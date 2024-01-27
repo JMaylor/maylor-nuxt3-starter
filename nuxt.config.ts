@@ -14,8 +14,6 @@ export default defineNuxtConfig({
     '@vueuse/nuxt', // https://vueuse.org/nuxt/README.html
     '@nuxtjs/tailwindcss', // https://tailwindcss.nuxtjs.org/
     '@pinia/nuxt', // https://pinia.vuejs.org/ssr/nuxt.html
-    'nuxt-icon', // https://github.com/nuxt-modules/icon
-    '@nuxtjs/eslint-module', // https://nuxt.com/modules/eslint
     '@nuxtjs/i18n', // https://v8.i18n.nuxtjs.org/
     '@nuxtjs/color-mode', // https://color-mode.nuxtjs.org/
   ],
