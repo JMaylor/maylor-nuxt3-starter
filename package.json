@@ -1,6 +1,5 @@
 {
-  "name": "nuxt-app",
-  "private": true,
+  "name": "maylor-nuxt3-starter",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
